@@ -137,7 +137,11 @@ header {
 
   color: #fff;
 }
-
+svg{
+     position: fixed;
+    bottom: 10px;
+    right: 10px; 
+}
 .input-group {
   display: flex;
 
