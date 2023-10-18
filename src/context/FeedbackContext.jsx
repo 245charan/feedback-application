@@ -5,10 +5,10 @@ const FeedbackContext = createContext();
 
 export const FeedbackProvider = ({ children }) => {
   const [feedback, setFeedback] = useState([
-    { id: 1, text: "This is from context", rating: 10 },
-    { id: 2, text: "This is from context", rating: 8 },
-    { id: 3, text: "This is from context", rating: 1 },
-    { id: 4, text: "This is from context", rating: 7 },
+    { id: 1, text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. consequuntur vel vitae commodi alias voluptatem est voluptatum ipsa quae.", rating: 10 },
+    { id: 2, text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. consequuntur vel vitae commodi alias voluptatem est voluptatum ipsa quae.", rating: 8 },
+    { id: 3, text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. consequuntur vel vitae commodi alias voluptatem est voluptatum ipsa quae.", rating: 8 },
+    { id: 4, text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. consequuntur vel vitae commodi alias voluptatem est voluptatum ipsa quae.", rating: 7 },
   ]);
 
   const [feedbackEdit, setFeedbackedit] = useState({
